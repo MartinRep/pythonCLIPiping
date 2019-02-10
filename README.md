@@ -17,4 +17,4 @@ Windows Command below will take data from data.txt and pipe it to the python run
 With ``-s`` argument the process will eun silently, without any notifications.  
 With ``-f`` argument the output will be saved into file with the filename equal to the next argument after ``-f``.  
   
-
+![example](https://github.com/MartinRep/pythonCLIPiping/blob/master/Media/pythonCLIpiping_exam.gif)
