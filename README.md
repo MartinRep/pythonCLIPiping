@@ -1,5 +1,9 @@
 # pythonCLIPiping
-Python CLI piping example. Produce prime numbers in the range specified.
+Python CLI pipeline example. Produce prime numbers in the range specified.
+
+## Pipeline
+[Windows pipeline](https://docs.microsoft.com/en-us/powershell/scripting/learn/understanding-the-powershell-pipeline?view=powershell-6)  
+[Unix pipeline](https://en.wikipedia.org/wiki/Pipeline_%28Unix%29)
 
 ## Usecase
 This is an example of how to handle piping inside Windows or Linux based OS's.
