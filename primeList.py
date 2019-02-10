@@ -11,7 +11,7 @@ def isPrime(number):
 def process_prime(number, numbers):
     percentage = int(number/numbers*100)
     if not silent:
-        print("Progress: {}                                  ".format(percentage), end='\r', flush=True)
+        print("Progress:{:>1} % ".format(percentage), end='\r', flush=True)
     return isPrime(number)
 
 def getPrimes(begining, end):
@@ -53,6 +53,7 @@ def main():
     if not silent:
         print("\nTime elapsed: {:.0f} ms".format((time.time() - s)*1000))
     if report:
+        print("Results saved to: {}".format(filename))
         f.close()
 
 main()
